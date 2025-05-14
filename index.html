@@ -860,12 +860,12 @@ button.active {
         </div>
 
         <div class="highlight-background">
-            <div class="kibounitizi">希望日時<span class="required">必須</span></div>
+            <div class="highlight-text">希望日時</div>
         </div>
 
             <div class="info-text">月曜日〜土曜日営業<br>午前10：00〜12：00<br>午後14：00〜16：00<br>上記時間外をご希望の場合のみご記入下さい。</div>
 
-        <input type="text" id="yoyakusitaihi" placeholder="希望日時を入力してください">
+        <input type="text" id="yoyakusitaihi" placeholder="上記時間外ご希望の場合のみこちらにご記入下さい">
 
         <div class="highlight-background">
             <span class="kibounitizi">第1希望日<span class="required">必須</span></span>
@@ -1099,6 +1099,10 @@ button.active {
         <div class="info-row">
             <p>${selectedDate3Text}</p>
             <button class="edit-button" onclick="scrollToElement('date3')">修正する</button>
+        </div>
+        <hr>
+        <div class="info-row">
+            <p>${totalTimeText}</p>
         </div>
         <hr>
     `;
